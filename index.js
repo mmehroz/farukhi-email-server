@@ -38,8 +38,8 @@ app.post("/fcclientcontact", async (req, res) => {
     // Email content
     let mailOptions = {
       from: "webmaster@farukhicompany.com",
-      to: email, // Uncomment if needed
-      cc: "cellmehroz@gmail.com",
+      to: "info@farukhicompany.com", // Uncomment if needed
+      // cc: "cellmehroz@gmail.com",
       subject: "Your trusted tax advisors | Contact",
       text: `
                 First Name: ${fName}
